@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Cash Register App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">💸 Cash Register<button class="toggle-mode">☀️</button></h1>
+        <div class="main-content">
+            <form>
+                <h2 class="main-content-header">Enter Bill Amount And Cash Paid</h2>
+                <label for="">Bill Amount: </label>
+                <input id="bill-amount" type="number" min="0"
+                required>
+                <label for="">Cash Paid: </label>
+                <input id="cash-paid" type="number"
+                min="0" required>
+                <button id="submit-btn">Check Currency</button>  
+            </form>
+            <h2 id="output-text"></h2>
+            <table id="emp-Table">
+            </table>
+        </div>
+        <footer>
+            <ul class="media-links">
+                <li><a class="list-link" href="https://github.com/Shivank12batra">Github</a></li>
+                <li><a class="list-link" href="https://shivank-batra-portfolio-website.netlify.app/">Portfolio</a></li>
+                <li><a class="list-link" href="twitter.com/prstrggr">Twitter</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
